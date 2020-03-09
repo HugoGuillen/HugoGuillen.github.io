@@ -18,7 +18,7 @@ h4,
 h5,
 h6 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .intro-header {
@@ -33,14 +33,14 @@ background-color: black;
 
 .intro-message {
     position: relative;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .intro-divider {
@@ -81,7 +81,7 @@ background-color: black;
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 10px 0;
     background-color: #f8f8f8;
 }
 

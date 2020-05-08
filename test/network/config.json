@@ -5,17 +5,17 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "Hugo Guillen"
+    "text": "h"
   },
   "text": {
     "more": "Test",
     "intro": "Test",
-    "title": "Reduced graph"
+    "title": "CLC2"
   },
   "legend": {
-    "edgeLabel": "If a gene contains an element",
-    "colorLabel": "Modularity number",
-    "nodeLabel": "Genes and datasets"
+    "edgeLabel": "[oncogenic/tumor supressor] | [evidence level]",
+    "colorLabel": "Community",
+    "nodeLabel": "Genes and cancer types"
   },
   "features": {
     "search": true,

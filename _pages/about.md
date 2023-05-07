@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Department of Visceral Surgery and Medicine, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland
+subtitle: Department of Visceral Surgery and Medicine, Inselspital, Bern University Hospital, University of Bern, Switzerland
 
 profile:
   align: right

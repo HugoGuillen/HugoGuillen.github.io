@@ -71,7 +71,6 @@ og_image: prof_pic.jpg # The site-wide (default for all links) Open Graph previe
 
 github_username: HugoGuillen # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: HugoGuillen # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: hugoaguillen # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -227,7 +226,6 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-toc
-  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings

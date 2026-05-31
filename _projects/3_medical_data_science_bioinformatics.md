@@ -11,5 +11,5 @@ This line of work combines **bioinformatics** (microbiome profiling) with **medi
 **Selected publications**
 
 - Zwicky, S. N. *et al.* **Preoperative enterosignatures predict surgical-site infections after abdominal surgery.** *Open Forum Infectious Diseases* **12**(9), ofaf549 (2025). [doi:10.1093/ofid/ofaf549](https://doi.org/10.1093/ofid/ofaf549)
-- *BJS Open* **8**(5), zrae098 (2024). [doi:10.1093/bjsopen/zrae098](https://doi.org/10.1093/bjsopen/zrae098)
+- Peisl, S. *et al.* **Noise in the operating room coincides with surgical difficulty.** *BJS Open* **8**(5), zrae098 (2024). [doi:10.1093/bjsopen/zrae098](https://doi.org/10.1093/bjsopen/zrae098)
 - Peisl, S. *et al.* **Influence of patient characteristics on microbial composition in surgical-site infections: insights from a national surveillance study.** *British Journal of Surgery* **111**(6), znae138 (2024). [doi:10.1093/bjs/znae138](https://doi.org/10.1093/bjs/znae138)

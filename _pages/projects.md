@@ -1,12 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: Selected research themes with links to the underlying publications.
+title: Research
+permalink: /research/
+description: Five themes run through my work. Each card links to the papers and code behind it.
 nav: true
-nav_order: 3
-display_categories: [work]
-horizontal: false
+nav_order: 2
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

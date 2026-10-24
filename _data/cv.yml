@@ -1,0 +1,207 @@
+# Structured CV rendered by _layouts/cv.html. Source: full scientific CV of October 2026.
+# Values are raw HTML (not Markdown). Publications live in _bibliography/papers.bib.
+
+- title: General information
+  type: map
+  contents:
+  - name: Name
+    value: Hugo Armando Guillen Ramirez
+  - name: Email
+    value: <a href="mailto:hugoagr@gmail.com">hugoagr@gmail.com</a>
+  - name: ORCID
+    value: <a href="https://orcid.org/0000-0003-0705-7432">0000-0003-0705-7432</a>
+  - name: Google Scholar
+    value: <a href="https://scholar.google.com/citations?user=uKT3kuEAAAAJ">uKT3kuEAAAAJ</a>
+  - name: Scopus
+    value: <a href="https://www.scopus.com/authid/detail.uri?authorId=55822608900">55822608900</a>
+  - name: GitHub
+    value: <a href="https://github.com/HugoGuillen">HugoGuillen</a>
+- title: Current positions
+  type: time_table
+  contents:
+  - title: Maître d'enseignement et de recherche (Senior Lecturer and Researcher), 50%
+    institution: Section of Medicine, Faculty of Science and Medicine, University of Fribourg, Switzerland
+    year: 2026 –
+    description:
+    - Teaching and research profile in clinical real-world AI and medical informatics.
+  - title: Advanced Postdoctoral Researcher (100% until 09/2026, 50% since 10/2026)
+    institution: Department of Visceral Surgery and Medicine, Inselspital, Bern University Hospital and University of Bern, Switzerland
+    year: 2023 – 2027
+    description:
+    - 'Supervisor: Prof. Guido Beldi.'
+    - Also affiliated with the Department for BioMedical Research and, since 2026, the Department of Digital Medicine.
+- title: Previous positions
+  type: time_table
+  contents:
+  - title: Marie Skłodowska-Curie Fellow
+    institution: School of Biology and Environmental Science, University College Dublin, Ireland
+    year: 2021 – 2023
+    description:
+    - 'Mentor: Prof. Rory Johnson. Project RNADOMAIN.'
+  - title: Postdoctoral Researcher
+    institution: Department for BioMedical Research, University of Bern, Switzerland
+    year: 2019 – 2021
+    description:
+    - 'Mentor: Prof. Rory Johnson. Computational genomics of long noncoding RNA.'
+  - title: Postdoctoral Researcher
+    institution: CICESE, Mexico
+    year: '2019'
+    description:
+    - 'Mentor: Dr Salvador Villarreal-Reyes. Artificial intelligence for public health.'
+- title: Education
+  type: time_table
+  contents:
+  - title: PhD in Computer Science
+    institution: Department of Computer Science, Centro de Investigación Científica y de Educación Superior de Ensenada (CICESE), Mexico
+    year: '2018'
+    description:
+    - 'Thesis: <em>Methods for non-coding RNA gene prediction</em>.'
+    - 'Supervisor: Dr Israel Marck Martínez-Pérez.'
+  - title: MSc in Computer Science
+    institution: CICESE, Mexico
+    year: '2014'
+    description:
+    - 'Thesis: <em>A Tissue P-System and Molecular Algorithm for the MAX-CLIQUE Problem</em>.'
+    - 'Supervisor: Dr Israel Marck Martínez-Pérez.'
+  - title: BSc in Computer Systems Engineering
+    institution: Instituto Tecnológico de Tepic, Mexico
+    year: '2011'
+    description:
+    - Award for the highest grade in the 2007–2011 graduating class.
+- title: Grants and awards
+  type: time_table
+  contents:
+  - title: 'Secure International Collaboration: Advancing Medical AI with Federated Learning and Synthetic Data'
+    institution: Digitalization Commission of the University of Bern (DigiK UniBE), CHF 500,000
+    year: 2025 – 2029
+    description:
+    - 'Named associated researcher. I conceived and lead the AI and methods component: federated training and evaluation of CARESCORE across Inselspital and CHUV Lausanne, and synthetic perioperative data.'
+    - 'PI of record: Prof. G. Beldi. Co-applicant: Dr O. Endrich.'
+  - title: Marie Skłodowska-Curie Individual Fellowship (H2020-MSCA-IF-2019, project 884178)
+    institution: European Commission, EUR 196,591
+    year: 2021 – 2023
+    description:
+    - Principal investigator and sole fellow. Project RNADOMAIN, University College Dublin, Ireland.
+  - title: CONACYT National Scholarship
+    institution: Mexico
+    year: 2011 – 2018
+    description:
+    - Support for master's and doctoral studies.
+- title: Research themes
+  type: nested_list
+  contents:
+  - title: Explainable perioperative risk prediction
+    items:
+    - Prediction of postoperative infections by strategic data imputation and explainable machine learning. <em>JAMIA</em> (2025).
+  - title: Temporal, missingness-aware modelling of the perioperative trajectory
+    items:
+    - End-of-surgery prediction of postoperative infectious complications from intraoperative vital-sign dynamics. <em>npj Digital Medicine</em> (2026), shared senior author.
+    - 'Two actionable windows: disentangling early mortality from late infection risks using time-resolved AI. <em>BJS</em> (2026), congress abstract.'
+  - title: Privacy-preserving and federated learning, synthetic data
+    items:
+    - AI and methods component of the DigiK UniBE project (2025 – 2029), in progress.
+  - title: LLMs and semantic embeddings for multilingual clinical data
+    items:
+    - LLM-augmented semantic embeddings enable cross-lingual mapping of medical procedure terms. <em>Scientific Reports</em> (2026).
+  - title: Equity and deployment-readiness auditing
+    items:
+    - 'Subgroup deployment-readiness audit of calibration and clinical utility in perioperative infection prediction. <em>JAMIA</em> (2026), in press. Software: <a href="https://github.com/HugoGuillen/isitfair">isitfair</a>.'
+- title: Teaching
+  type: nested_list
+  contents:
+  - title: '2026'
+    items:
+    - <em>Introduction to Image Analysis</em>. Biomedical Engineering, Artificial Intelligence in Medicine and Bioinformatics Master’s Programs, University of Bern.
+    - <em>Programming for Biologists (Introduction to Python)</em>. Faculty of Medicine, University of Bern.
+    - <em>Human Medicine</em>, 3rd-year medical students. Faculty of Medicine, University of Bern.
+    - <em>Introduction to Precision Medicine</em>. Pharmaceutical and Bioinformatics Master’s Programs, University of Bern.
+    - <em>Clinical Decision Support (Human–Computer Interaction for CDSS)</em>. Artificial Intelligence in Medicine Master’s Program, ARTORG Center, University of Bern.
+    - <em>Introduction to R</em>. Faculty of Medicine, University of Bern.
+    - <em>Medical Informatics</em>. Biomedical Engineering Master’s Program, University of Bern.
+  - title: '2025'
+    items:
+    - <em>Introduction to R</em>. Faculty of Medicine, University of Bern.
+    - <em>Introduction to Clinics</em>. Artificial Intelligence in Medicine Master’s Program, University of Bern.
+    - <em>Medical Informatics</em>. Biomedical Engineering Master’s Program, University of Bern.
+  - title: 2023 – 2024
+    items:
+    - <em>Introduction to Clinics</em>. Artificial Intelligence in Medicine Master’s Program, University of Bern.
+  - title: '2022'
+    items:
+    - <em>The RNA World</em>. University College Dublin, Ireland.
+  - title: '2019'
+    items:
+    - <em>Cancer Genomics</em>. University of Bern.
+    - <em>Computational Biology (Genome Indexing Algorithms)</em>. CICESE Research Center, Mexico.
+  - title: 2017 – 2019
+    items:
+    - <em>Artificial Intelligence</em>, <em>Advanced Mathematics for Engineering</em>, <em>Evolutionary Computing</em> and <em>Assembly Language</em> (undergraduate). Autonomous University of Baja California, Mexico.
+    - Mathematics, algebra and mathematical reasoning (high school). Xochicalco High School, Mexico, 2017 – 2018.
+- title: Thesis supervision
+  type: list
+  contents:
+  - '2021 – 2022: co-supervised two master''s theses, Mateusz Brodzik (Universitat Pompeu Fabra, Spain) and Jules Montuelle (University of Fribourg, Switzerland).'
+- title: Invited talks
+  type: time_table
+  contents:
+  - year: '2026'
+    title: Representing time series, missingness, and semantics in surgical risk prediction
+    institution: 'Workshop “AI across scales: from molecules to planet Earth”, Isaac Newton Institute, University of Cambridge, UK'
+  - year: '2020'
+    title: Discrete mathematics and the design of CRISPR-Cas9 genome editing libraries
+    institution: Instituto Tecnológico de Tepic, Mexico
+  - year: '2017'
+    title: Score functions for discriminant k-mers and their application in ncRNA classification
+    institution: CICESE Research Center, Mexico (in Spanish)
+  - year: '2016'
+    title: 'Methods for ncRNA gene prediction: RNA secondary structure alternative graph representations'
+    institution: XII National Meeting on Mathematical Biology, UNAM Campus Morelia, Mexico (in Spanish)
+  - year: '2016'
+    title: 'Bio-computing: RNA, Biopython, and graphs'
+    institution: Computer Science Fall School, CICESE Research Center, Mexico (in Spanish)
+- title: Conference presentations
+  type: time_table
+  contents:
+  - year: '2025'
+    title: 'Poster: Intraoperative vital sign variability as early warning signals of postoperative infection'
+    institution: MCID Annual Event 2025, Switzerland
+  - year: '2025'
+    title: 'Poster: MAP-CARE: advancing international healthcare through enhanced multilingual medical terminology analysis'
+    institution: Precision Health Day 2025, USI–SUPSI, Switzerland
+  - year: '2024'
+    title: 'Talk: Implementing semantic search for cohort selection using procedure-based CHOP codes'
+    institution: Annual Meeting of SGG-SGVC-SASL & SVEP 2024, Switzerland
+  - year: '2024'
+    title: 'Talk: Prediction of postsurgical infection by explainable AI and strategic data imputation'
+    institution: Annual Meeting of SGG-SGVC-SASL & SVEP 2024, Switzerland
+  - year: '2023'
+    title: 'Talk: Early prediction of postsurgical infections using a Bayesian approach'
+    institution: Annual Meeting of SGG-SGVC-SASL & SVEP 2023, Switzerland
+  - year: '2023'
+    title: 'Talk: Age is an independent predictor for the shift from skin to intestinal microbes in surgical site infections across different types of procedures'
+    institution: Annual Meeting of SGG-SGVC-SASL & SVEP 2023, Switzerland
+  - year: '2022'
+    title: 'Poster: GeneHTracker: improving reproducibility and reusability of datasets based on gene identifiers'
+    institution: 21st European Conference on Computational Biology (ECCB 2022), Sitges, Spain
+  - year: '2020'
+    title: 'Poster: Transposable elements as functional domains of long noncoding RNAs'
+    institution: Virtual Meeting on Transposable Elements, Cold Spring Harbor Laboratory
+  - year: '2017'
+    title: 'Talk: Accurate classification of immunomodulatory RNA sequences'
+    institution: International Joint Conference on Neural Networks (IJCNN 2017), Anchorage, USA
+  - year: '2015'
+    title: 'Poster: Simulation of a programmable molecular computer'
+    institution: 21st International Conference on DNA Computing and Molecular Programming (DNA 2015), Boston, USA
+- title: Memberships
+  type: list
+  contents:
+  - Department of Digital Medicine, University of Bern (2026 – present)
+  - OHDSI Switzerland, national node (2025 – present)
+- title: Selected training
+  type: list
+  contents:
+  - Causal Inference; Missing Data and Imputation Methods; Federated Learning in Bioinformatics. Swiss Institute of Bioinformatics, 2025.
+  - 'Supervising Master''s Theses and Doctoral Dissertations; From Idea to Impact: Crafting Successful Grant Proposals. University of Bern, 2025.'
+  - Bayesian Statistics with R. Swiss Institute of Bioinformatics, 2023.
+  - EMBO Lab Leadership Postdoc Course. EMBO Laboratory Management Courses, 2022.
+  - Single-cell Transcriptomics; Reproducible Research with Nextflow; Data Management Plan. Swiss Institute of Bioinformatics, 2021.

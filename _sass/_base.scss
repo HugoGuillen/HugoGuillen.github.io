@@ -947,3 +947,74 @@ nav[data-toggle="toc"] {
   }
 }
 
+
+
+// -----------------------------------------------------------------------------
+// Site customisations (2026 overhaul)
+// -----------------------------------------------------------------------------
+
+// Affiliation block under the photo: body font instead of the theme's monospace.
+.profile .address {
+  font-family: inherit;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--global-text-color-light);
+  p { margin-bottom: 0.35rem !important; }
+}
+
+// Affiliation logos, on a white chip so they stay legible in dark mode.
+.profile .address p.affiliation-logos {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 0.6rem !important;
+  margin-bottom: 1rem !important;
+  img {
+    height: 34px !important;
+    width: auto !important;
+    max-width: none;
+    padding: 3px 5px;
+    background: #ffffff;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    box-shadow: none;
+  }
+}
+
+// Research cards: smaller titles.
+.projects .card .card-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+// CV year badges use the theme accent instead of red.
+.cv .badge.danger-color-dark {
+  background-color: var(--global-theme-color) !important;
+}
+
+// Research cards: one column on narrow screens.
+@media (max-width: 767px) {
+  .projects .row-cols-2 > .card-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+// Software page and preprint note.
+.software {
+  h2 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    color: var(--global-theme-color);
+  }
+  .software-meta {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+}
+.publications .preprint-note,
+.publications .pub-profiles {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
